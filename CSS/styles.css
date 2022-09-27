@@ -204,9 +204,6 @@ Going through three colors using %:
   }
 }
 */
-.sun{
-  animation: 4s color-change infinite alternate linear;
-}
 /* this is the short form of:
 .sun{
   animation-duration: 4s;
@@ -247,7 +244,7 @@ Going through three colors using %:
   
 }
 @keyframes color-change{
-  from´{
+  from {
     fill:#6c63ff
   }
   to{
@@ -261,7 +258,7 @@ Going through three colors using %:
   width: 150px;
   transform-origin: 0px 0px 0px;
 
-  transform: rotate(360deg);
+  transform: rotate(90deg);
   
 }
 @keyframes move{
