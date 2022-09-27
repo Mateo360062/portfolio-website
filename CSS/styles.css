@@ -264,7 +264,7 @@ Going through three colors using %:
   transform: rotate(360deg);
   
 }
-@keyframes:move{
+@keyframes move{
   from{
     transform:translate(-10px,-20px);
   }to{
@@ -293,8 +293,8 @@ animation: 4s move infinite alternate linear;
   bottom: 0px;
   transform: translateY(-10px);
 }
-.borders-out::before : hover,
-.borders-out::after : hover {
+.borders-out::before hover,
+.borders-out::after hover {
   opacity: 1;
   transform: translateY(0px);
 }
