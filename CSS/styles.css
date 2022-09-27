@@ -271,27 +271,27 @@ Going through three colors using %:
 .third-note{
 animation: 4s move infinite alternate linear;
 }
-.borders-out::before,
-.borders-out::after{
+.navigation-list__item::before,
+.navigation-list__item::after{
   position: absolute;
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #FFF;
+    background: blue;
     content: "";
     opacity: 0;
     transition: all 0.3s;
 }
-.borders-out::before{
+.navigation-list__item::before{
   top:0px;
   transform: translateY(10px);
 }
-.borders-out::after{
+.navigation-list__item::after{
   bottom: 0px;
   transform: translateY(-10px);
 }
-.borders-out::before hover,
-.borders-out::after hover {
+.navigation-list__item::before hover,
+.navigation-list__item::after hover {
   opacity: 1;
   transform: translateY(0px);
 }
