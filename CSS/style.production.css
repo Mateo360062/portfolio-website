@@ -309,8 +309,8 @@ Going through three colors using %:
 -webkit-animation: 4s move infinite alternate linear;
         animation: 4s move infinite alternate linear;
 }
-.navigation-list__item::before,
-.navigation-list__item::after{
+.navigation-list::before,
+.navigation-list::after{
   position: absolute;
     left: 0px;
     width: 100%;
@@ -321,18 +321,18 @@ Going through three colors using %:
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
-.navigation-list__item::before{
+.navigation-list::before{
   top:0px;
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
 }
-.navigation-list__item::after{
+.navigation-list::after{
   bottom: 0px;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
-.navigation-list__item::before hover,
-.navigation-list__item::after hover {
+.navigation-list::before hover,
+.navigation-list::after hover {
   opacity: 1;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
